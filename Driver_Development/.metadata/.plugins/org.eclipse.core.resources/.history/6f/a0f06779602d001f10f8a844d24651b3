@@ -1,0 +1,14 @@
+/*
+ * Led_toggle.c
+ *
+ *  Created on: Jun 18, 2024
+ *      Author: Chait
+ */
+
+#include "stm32f446re_gpio.h"
+
+void LED_Blinky_5ms()
+{
+	GPIO_Handle_t *pGPIOAHandle;
+	GPIO_Init(pGPIOAHandle);
+}

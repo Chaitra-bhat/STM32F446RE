@@ -1,0 +1,14 @@
+/*
+ * stm32f446re_StdTypes.h
+ *
+ *  Created on: Jun 18, 2024
+ *      Author: Chait
+ */
+
+#ifndef STM32F446RE_STDTYPES_H_
+#define STM32F446RE_STDTYPES_H_
+
+#define ENABLE		1U
+#define DISABLE		0U
+
+#endif /* STM32F446RE_STDTYPES_H_ */

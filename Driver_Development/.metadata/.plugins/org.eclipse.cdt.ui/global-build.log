@@ -1,0 +1,21 @@
+16:02:52 **** Incremental Build of configuration Debug for project stm32f446re_drivers ****
+make -j12 all 
+arm-none-eabi-gcc "../SWC/Button/Src/button_interrupt.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I"C:/Users/Chait/OneDrive/Projects/Driver_Development/stm32f446re_drivers/MCAL/Reset_and_Clocks/Inc" -I"C:/Users/Chait/OneDrive/Projects/Driver_Development/stm32f446re_drivers/MCAL/System_Conf/Inc" -I"C:/Users/Chait/OneDrive/Projects/Driver_Development/stm32f446re_drivers/MCAL/Interrupt_Conf/Inc" -I"C:/Users/Chait/OneDrive/Projects/Driver_Development/stm32f446re_drivers/SWC/Button/Inc" -I"C:/Users/Chait/OneDrive/Projects/Driver_Development/stm32f446re_drivers/SWC/LED/Inc" -I"C:/Users/Chait/OneDrive/Projects/Driver_Development/stm32f446re_drivers/Inc" -I"C:/Users/Chait/OneDrive/Projects/Driver_Development/stm32f446re_drivers/MCAL/GPIO_drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"SWC/Button/Src/button_interrupt.d" -MT"SWC/Button/Src/button_interrupt.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "SWC/Button/Src/button_interrupt.o"
+arm-none-eabi-gcc -o "stm32f446re_drivers.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Chait\OneDrive\Projects\Driver_Development\stm32f446re_drivers\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stm32f446re_drivers.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stm32f446re_drivers.elf
+ 
+arm-none-eabi-size  stm32f446re_drivers.elf 
+arm-none-eabi-objdump -h -S stm32f446re_drivers.elf  > "stm32f446re_drivers.list"
+   text	   data	    bss	    dec	    hex	filename
+   5260	     92	   1900	   7252	   1c54	stm32f446re_drivers.elf
+Finished building: default.size.stdout
+ 
+Finished building: stm32f446re_drivers.list
+ 
+16:02:59 **** Incremental Build of configuration Debug for project stm32f446re_drivers ****
+make -j12 all 
+arm-none-eabi-size  stm32f446re_drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5260	     92	   1900	   7252	   1c54	stm32f446re_drivers.elf
+Finished building: default.size.stdout
+ 

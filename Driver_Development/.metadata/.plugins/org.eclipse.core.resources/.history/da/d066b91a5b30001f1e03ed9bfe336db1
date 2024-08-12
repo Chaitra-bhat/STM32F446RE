@@ -1,0 +1,16 @@
+/*
+ * Interrupt_Conf.h
+ *
+ *  Created on: Jun 22, 2024
+ *      Author: Chait
+ */
+
+#ifndef INTERRUPT_CONF_INC_INTERRUPT_CONF_H_
+#define INTERRUPT_CONF_INC_INTERRUPT_CONF_H_
+
+typedef struct{
+
+
+}EXTI_Reg_Def;
+
+#endif /* INTERRUPT_CONF_INC_INTERRUPT_CONF_H_ */

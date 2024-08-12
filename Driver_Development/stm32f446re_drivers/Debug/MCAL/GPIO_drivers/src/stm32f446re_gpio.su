@@ -1,0 +1,12 @@
+../MCAL/GPIO_drivers/src/stm32f446re_gpio.c:20:6:GPIO_Init	24	static
+../MCAL/GPIO_drivers/src/stm32f446re_gpio.c:100:6:GPIO_DeInit	16	static
+../MCAL/GPIO_drivers/src/stm32f446re_gpio.c:131:6:GPIO_PeriClkEnable	16	static
+../MCAL/GPIO_drivers/src/stm32f446re_gpio.c:177:9:GPIO_ReadPin	24	static
+../MCAL/GPIO_drivers/src/stm32f446re_gpio.c:184:10:GPIO_ReadPort	24	static
+../MCAL/GPIO_drivers/src/stm32f446re_gpio.c:190:6:GPIO_WriteTOutputPin	16	static
+../MCAL/GPIO_drivers/src/stm32f446re_gpio.c:203:6:GPIO_WriteToOutputPort	16	static
+../MCAL/GPIO_drivers/src/stm32f446re_gpio.c:208:6:GPIO_TogglePin	16	static
+../MCAL/GPIO_drivers/src/stm32f446re_gpio.c:213:6:GPIO_IRQConfig	16	static
+../MCAL/GPIO_drivers/src/stm32f446re_gpio.c:253:6:GPIO_IRQHandling	16	static
+../MCAL/GPIO_drivers/src/stm32f446re_gpio.c:263:6:GPIO_IRQPriority_Config	24	static
+../MCAL/GPIO_drivers/src/stm32f446re_gpio.c:273:6:delay	16	static

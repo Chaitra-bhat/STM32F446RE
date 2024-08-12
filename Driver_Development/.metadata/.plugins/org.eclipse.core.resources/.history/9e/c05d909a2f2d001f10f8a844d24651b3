@@ -1,0 +1,13 @@
+/*
+ * stm32f446re_rcc.h
+ *
+ *  Created on: Jun 18, 2024
+ *      Author: Chait
+ */
+
+#ifndef STM32F446RE_RCC_H_
+#define STM32F446RE_RCC_H_
+
+
+
+#endif /* STM32F446RE_RCC_H_ */

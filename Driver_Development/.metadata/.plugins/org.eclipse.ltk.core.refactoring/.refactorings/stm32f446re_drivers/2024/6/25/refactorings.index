@@ -1,0 +1,5 @@
+1718602472309	Rename resource 'stm32f446re_memory'
+1718702911494	Move 'Reset_and_Clocks' to 'MCAL'
+1718702958979	Move 'memory_Drivers' to 'MCAL'
+1718703437645	Rename resource 'memory_Drivers'
+1718703642094	Rename resource 'GPIO'

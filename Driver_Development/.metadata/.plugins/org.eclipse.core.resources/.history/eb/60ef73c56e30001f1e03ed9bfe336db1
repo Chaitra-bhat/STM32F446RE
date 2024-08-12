@@ -1,0 +1,13 @@
+/*
+ * sysconfig.h
+ *
+ *  Created on: Jun 22, 2024
+ *      Author: Chait
+ */
+
+#ifndef SYSTEM_CONF_INC_SYSCONFIG_H_
+#define SYSTEM_CONF_INC_SYSCONFIG_H_
+
+
+
+#endif /* SYSTEM_CONF_INC_SYSCONFIG_H_ */

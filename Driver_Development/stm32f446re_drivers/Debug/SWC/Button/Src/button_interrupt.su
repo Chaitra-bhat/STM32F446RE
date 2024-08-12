@@ -1,0 +1,2 @@
+../SWC/Button/Src/button_interrupt.c:12:6:ButtonInterrupt_5ms	32	static
+../SWC/Button/Src/button_interrupt.c:48:6:EXTI15_10_IRQHandler	8	static

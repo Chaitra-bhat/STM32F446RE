@@ -1,0 +1,13 @@
+/*
+ * Led_toggle.c
+ *
+ *  Created on: Jun 18, 2024
+ *      Author: Chait
+ */
+
+
+
+void LED_Blinky_5ms()
+{
+	GPIO_Init(pGPIOHandle)
+}

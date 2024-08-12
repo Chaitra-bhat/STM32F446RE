@@ -1,0 +1,22 @@
+/*
+ * stm32f446re_memory.h
+ *
+ *  Created on: Jun 17, 2024
+ *      Author: Chait
+ */
+
+#ifndef INC_STM32F446RE_MEMORY_H_
+#define INC_STM32F446RE_MEMORY_H_
+
+#define SRAM1_BASE_ADDR			0x20000000UL
+#define FLASH_BASE_ADDR			0x08000000UL
+#define SRAM2_BASE_ADDR			0x2001C000UL
+
+#define AHB1_BASE_ADDR			0x40020000UL
+#define AHB2_BASE_ADDR			0x50000000UL
+#define AHB3_BASE_ADDR			0xA0001000UL
+
+#define APB1_BASE_ADDR			0x40000000UL
+#define APB2_BASE_ADDR			0x40010000UL
+
+#endif /* INC_STM32F446RE_MEMORY_H_ */
