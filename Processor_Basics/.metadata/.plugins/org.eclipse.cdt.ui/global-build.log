@@ -1,0 +1,35 @@
+14:41:02 **** Incremental Build of configuration Debug for project 01_ProcessorModes ****
+make -j12 all 
+arm-none-eabi-size  01_ProcessorModes.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3480	     92	   1900	   5472	   1560	01_ProcessorModes.elf
+Finished building: default.size.stdout
+ 
+14:41:08 **** Incremental Build of configuration Debug for project 01_ProcessorModes ****
+make -j12 all 
+arm-none-eabi-size  01_ProcessorModes.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3480	     92	   1900	   5472	   1560	01_ProcessorModes.elf
+Finished building: default.size.stdout
+ 
+15:07:58 **** Incremental Build of configuration Debug for project 01_ProcessorModes ****
+make -j12 all 
+arm-none-eabi-size  01_ProcessorModes.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3480	     92	   1900	   5472	   1560	01_ProcessorModes.elf
+Finished building: default.size.stdout
+ 
+15:10:01 **** Incremental Build of configuration Debug for project 01_ProcessorModes ****
+make -j12 all 
+arm-none-eabi-size  01_ProcessorModes.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3480	     92	   1900	   5472	   1560	01_ProcessorModes.elf
+Finished building: default.size.stdout
+ 
+15:11:03 **** Incremental Build of configuration Debug for project 01_ProcessorModes ****
+make -j12 all 
+arm-none-eabi-size  01_ProcessorModes.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3480	     92	   1900	   5472	   1560	01_ProcessorModes.elf
+Finished building: default.size.stdout
+ 
